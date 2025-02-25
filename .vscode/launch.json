@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "api-1",
+            "request": "launch",
+            "console": "internalConsole",
+            "mainClass": "api1.App",
+            "projectName": "api-1"
+        },
+        {
+            "type": "java",
+            "name": "api-2",
+            "request": "launch",
+            "console": "internalConsole",
+            "mainClass": "api2.App",
+            "projectName": "api-2"
+        },
+        {
+            "type": "java",
+            "name": "runner-1",
+            "request": "launch",
+            "console": "internalConsole",
+            "mainClass": "runner1.App",
+            "projectName": "runner-1"
+        }
+    ],
+    "compounds": [
+        {
+            "name": "run-all",
+            "configurations": ["api-1","api-2","runner-1"]
+        }
+    ]
+}

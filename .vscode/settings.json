@@ -1,0 +1,12 @@
+{
+    "debug.autoExpandLazyVariables": "on",
+    "java.inlayHints.parameterNames.enabled": "none",
+    "files.exclude": {
+        // "**/build/" : true,
+        // "**/gradle/" : true,
+        // "**/.gradle/" : true,
+        // "**/bin/" : true, 
+    },
+    "java.configuration.updateBuildConfiguration": "interactive"
+    
+}

@@ -1,0 +1,25 @@
+plugins {
+	id 'java'
+}
+
+version = '0.0.1-SNAPSHOT'
+
+java {
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(21)
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+}
+
+sourceSets {
+	main.java.srcDirs = ['src']
+	main.resources.srcDirs = ['src-r']
+	test.java.srcDirs = ['tst']
+	test.resources.srcDirs = ['tst-r']
+}
